@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./styles/main.css" />
+    <title>Cotizador de servicios</title>
+  </head>
+  <body>
+    <header>
+      <ul class="nav-header">
+        <li class="list-item">Home</li>
+        <li class="list-item">Servicios</li>
+        <li class="list-item">Contacto</li>
+        <li class="list-item">Cotizador</li>
+      </ul>
+    </header>
+    <main id="main">
+      <div id="container-main">
+        <h1 class="title-main">Soluciones para tu negocio</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+        </p>
+      </div>
+    </main>
+
+    <section id="services">
+      <div class="info-services">
+        <h2>Nuestros Servicios</h2>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+      </div>
+      <div class="container-services">
+        <article class="card-service">
+          <h4>Subtítulos en Inglés</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <span>$200 por hora</span>
+        </article>
+        <article class="card-service">
+          <h4>Subtítulos en Portugués</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <span>$150 por hora</span>
+        </article>
+        <article class="card-service">
+          <h4>Audio en inglés</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <span>$150 por hora</span>
+        </article>
+        <article class="card-service">
+          <h4>Audio en portugués</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <span>$100 por hora</span>
+        </article>
+        <article class="card-service">
+          <h4>LSA</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <span>$150 por hora</span>
+        </article>
+      </div>
+    </section>
+    <section class="section-img"></section>
+    <section id="prices">
+      <div class="container-prices">
+        <article class="service">
+          <h4>Subtítulos en Inglés</h4>
+          <input
+            type="number"
+            placeholder="Cantidad de horas"
+            min="1"
+            max="4"
+          />
+          <button class="add-carrito" id="1">Agregar</button>
+        </article>
+        <article class="service">
+          <h4>Subtítulos en Portugués</h4>
+          <input
+            type="number"
+            placeholder="Cantidad de horas"
+            min="1"
+            max="4"
+          />
+          <button class="add-carrito" id="2">Agregar</button>
+        </article>
+        <article class="service">
+          <h4>Audio en inglés</h4>
+          <input
+            type="number"
+            placeholder="Cantidad de horas"
+            min="1"
+            max="4"
+          />
+          <button class="add-carrito" id="3">Agregar</button>
+        </article>
+        <article class="service">
+          <h4>Audio en portugués</h4>
+          <input
+            type="number"
+            placeholder="Cantidad de horas"
+            min="1"
+            max="4"
+          />
+          <button class="add-carrito" id="4">Agregar</button>
+        </article>
+        <article class="service">
+          <h4>LSA</h4>
+          <input
+            type="number"
+            placeholder="Cantidad de horas"
+            min="1"
+            max="4"
+          />
+          <button class="add-carrito" id="5">Agregar</button>
+        </article>
+      </div>
+      <div id="container-carrito">
+        <button class="btn-iva">Con IVA</button>
+
+        <div class="carrito">
+          <h1>Los servicios contratados son:</h1>
+          <div id="container-total"><h1>El costo total es de: $0</h1></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="container-form">
+      <form id="form"></form>
+    </section>
+    <footer id="footer"></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

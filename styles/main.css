@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif; }
+
+li {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 60px; }
+  header .nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 100%;
+    align-items: center; }
+
+#main {
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center; }
+  #main #container-main {
+    width: 54%;
+    line-height: 2;
+    color: white;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center; }
+    #main #container-main .title-main {
+      font-size: 54px; }
+
+#services {
+  margin-bottom: 82px; }
+  #services .info-services {
+    text-align: center;
+    width: 40%;
+    margin: 65px auto;
+    line-height: 2; }
+    #services .info-services h2 {
+      font-size: 35px; }
+  #services .container-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #services .container-services .card-service {
+      margin: 0 45px;
+      width: 25%;
+      height: 238px; }
+      #services .container-services .card-service h4 {
+        padding: 20px 0; }
+      #services .container-services .card-service p {
+        color: #777;
+        padding-bottom: 15px; }
+
+.section-img {
+  background-image: url("../img/computer.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 450px; }
+
+#prices {
+  display: flex;
+  width: 100%;
+  justify-content: space-around; }
+  #prices .container-prices {
+    line-height: 2; }
+
+/*# sourceMappingURL=main.css.map */
