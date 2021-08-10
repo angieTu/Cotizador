@@ -5,17 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <title>Cotizador de servicios</title>
   </head>
   <body>
     <header>
       <ul class="nav-header">
-        <li class="list-item">Home</li>
-        <li class="list-item">Servicios</li>
-        <li class="list-item">Contacto</li>
-        <li class="list-item">Cotizador</li>
+        <li class="list-item">
+          <a href="#home">Home</a>
+        </li>
+        <li class="list-item">
+          <a href="#servicios">Servicios</a>
+        </li>
+        <li class="list-item">
+          <a href="#cotizador">Cotizador</a>
+        </li>
+        <li class="list-item">
+          <a href="#contacto">Contacto</a>
+        </li>
       </ul>
     </header>
+    <a name="home"></a>
     <main id="main">
       <div id="container-main">
         <h1 class="title-main">Soluciones para tu negocio</h1>
@@ -28,7 +49,7 @@
         </p>
       </div>
     </main>
-
+    <a name="servicios"></a>
     <section id="services">
       <div class="info-services">
         <h2>Nuestros Servicios</h2>
@@ -38,127 +59,78 @@
           to make a type specimen book.
         </p>
       </div>
-      <div class="container-services">
-        <article class="card-service">
-          <h4>Subtítulos en Inglés</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <span>$200 por hora</span>
-        </article>
-        <article class="card-service">
-          <h4>Subtítulos en Portugués</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <span>$150 por hora</span>
-        </article>
-        <article class="card-service">
-          <h4>Audio en inglés</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <span>$150 por hora</span>
-        </article>
-        <article class="card-service">
-          <h4>Audio en portugués</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <span>$100 por hora</span>
-        </article>
-        <article class="card-service">
-          <h4>LSA</h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <span>$150 por hora</span>
-        </article>
-      </div>
+      <div class="container-services"></div>
     </section>
     <section class="section-img"></section>
-    <section id="prices">
-      <div class="container-prices">
-        <article class="service">
-          <h4>Subtítulos en Inglés</h4>
-          <input
-            type="number"
-            placeholder="Cantidad de horas"
-            min="1"
-            max="4"
-          />
-          <button class="add-carrito" id="1">Agregar</button>
-        </article>
-        <article class="service">
-          <h4>Subtítulos en Portugués</h4>
-          <input
-            type="number"
-            placeholder="Cantidad de horas"
-            min="1"
-            max="4"
-          />
-          <button class="add-carrito" id="2">Agregar</button>
-        </article>
-        <article class="service">
-          <h4>Audio en inglés</h4>
-          <input
-            type="number"
-            placeholder="Cantidad de horas"
-            min="1"
-            max="4"
-          />
-          <button class="add-carrito" id="3">Agregar</button>
-        </article>
-        <article class="service">
-          <h4>Audio en portugués</h4>
-          <input
-            type="number"
-            placeholder="Cantidad de horas"
-            min="1"
-            max="4"
-          />
-          <button class="add-carrito" id="4">Agregar</button>
-        </article>
-        <article class="service">
-          <h4>LSA</h4>
-          <input
-            type="number"
-            placeholder="Cantidad de horas"
-            min="1"
-            max="4"
-          />
-          <button class="add-carrito" id="5">Agregar</button>
-        </article>
-      </div>
-      <div id="container-carrito">
-        <button class="btn-iva">Con IVA</button>
 
-        <div class="carrito">
-          <h1>Los servicios contratados son:</h1>
-          <div id="container-total"><h1>El costo total es de: $0</h1></div>
+    <a name="cotizador"></a>
+    <section id="prices">
+      <h2>Cotizá nuestros servicios</h2>
+      <div class="container-prices">
+        <div class="container-services-add"></div>
+        <div id="container-carrito">
+          <div class="carrito">
+            <h4>Los servicios contratados son:</h4>
+          </div>
+          <div id="container-total">
+            <hr />
+            <h4>El costo total es de: $0 + IVA</h4>
+          </div>
+          <button class="btn-iva">Con IVA</button>
         </div>
       </div>
     </section>
 
+    <a name="contacto"></a>
     <section id="container-form">
-      <form id="form"></form>
+      <h2>Contáctanos</h2>
+      <form id="form">
+        <div className="form-complete">
+          <label for="name">Nombre</label>
+          <div className="name">
+            <input
+              type="text"
+              id="name"
+              name="username"
+              placeholder="Ingrese su nombre"
+              minlength="5"
+              required
+            />
+          </div>
+          <label for="email">Dirección de email</label>
+          <div className="email">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="name@email.com"
+              required
+            />
+          </div>
+        </div>
+
+        <legend for="message">Mensaje</legend>
+        <textarea
+          name="message"
+          id="message"
+          cols=""
+          rows=""
+          placeholder="Escriba aquí su mensaje"
+          required
+        ></textarea>
+        <button id="form-button" type="submit">Enviar</button>
+      </form>
     </section>
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <p>
+        Developed by
+        <a target="blank" href="https://github.com/angieTu"> Angie Turne </a>
+      </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/servicio.js"></script>
+    <script src="./js/globales.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/funciones.js"></script>
   </body>
 </html>
