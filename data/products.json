@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Subtítulos en inglés",
+    "costo": 2500,
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Subtítulos en portugués",
+    "costo": 2000,
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Subtítulos en español",
+    "costo": 1500,
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Audio en inglés",
+    "costo": 3500,
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Audio en portugués",
+    "costo": 3000,
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Audio en español",
+    "costo": 2500,
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "LSA",
+    "costo": 1000,
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Audio descripción en inglés",
+    "costo": 2000,
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Audio descripción en portugués",
+    "costo": 1500,
+    "cantidad": 1
+  },
+  {
+    "id": 10,
+    "nombre": "Audio descripción en español",
+    "costo": 1000,
+    "cantidad": 1
+  }
+]

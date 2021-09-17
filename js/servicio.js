@@ -1,10 +1,15 @@
 class Servicio {
-  constructor(id, nombre, costoPorHora) {
+  constructor(id, nombre, costo, cantidad) {
     this.id = id;
     this.nombre = nombre;
-    this.costoPorHora = costoPorHora;
+    this.costo = costo;
+    this.cantidad = cantidad;
   }
   sumarIva() {
-    this.costoPorHora *= 1.21;
+    this.costo *= 1.21;
+  }
+
+  subTotal() {
+    return this.costo * this.cantidad;
   }
 }

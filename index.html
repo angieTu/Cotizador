@@ -21,7 +21,18 @@
   </head>
   <body>
     <header>
+      <div class="nav-responsive"><i class="fas fa-align-left"></i></div>
+      <div class="logo">
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Lorem Ipsum
+        </a>
+      </div>
       <ul class="nav-header">
+        <a class="close-nav"> X</a>
         <li class="list-item">
           <a href="#home">Home</a>
         </li>
@@ -35,22 +46,32 @@
           <a href="#contacto">Contacto</a>
         </li>
       </ul>
+      <div>
+        <button id="show-carrito">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <div id="container-carrito">
+          <div id="carrito">
+            <div class="carrito"></div>
+            <div id="container-total"></div>
+            <div class="btns-carrito"></div>
+          </div>
+        </div>
+      </div>
     </header>
     <a name="home"></a>
     <main id="main">
+      <section class="img-main"></section>
       <div id="container-main">
-        <h1 class="title-main">Soluciones para tu negocio</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-        </p>
+        <h3>Alcanza</h3>
+        <h3 id="target"></h3>
+        <!-- <h1 id="title-main">Soluciones para tu negocio</h1>
+        <p id="escribeTexto"></p> -->
       </div>
     </main>
     <a name="servicios"></a>
     <section id="services">
+      <div class="skewed"></div>
       <div class="info-services">
         <h2>Nuestros Servicios</h2>
         <p>
@@ -66,60 +87,57 @@
     <a name="cotizador"></a>
     <section id="prices">
       <h2>Cotizá nuestros servicios</h2>
-      <div class="container-prices">
-        <div class="container-services-add"></div>
-        <div id="container-carrito">
-          <div class="carrito">
-            <h4>Los servicios contratados son:</h4>
-          </div>
-          <div id="container-total">
-            <hr />
-            <h4>El costo total es de: $0 + IVA</h4>
-          </div>
-          <button class="btn-iva">Con IVA</button>
-        </div>
-      </div>
+      <div class="container-services-add"></div>
     </section>
 
     <a name="contacto"></a>
     <section id="container-form">
       <h2>Contáctanos</h2>
-      <form id="form">
-        <div className="form-complete">
-          <label for="name">Nombre</label>
-          <div className="name">
-            <input
-              type="text"
-              id="name"
-              name="username"
-              placeholder="Ingrese su nombre"
-              minlength="5"
-              required
-            />
+      <div class="container">
+        <div class="form-datos">
+          <div class="icon-container">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <span>loremipsum@gmail.com</span>
           </div>
-          <label for="email">Dirección de email</label>
-          <div className="email">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="name@email.com"
-              required
-            />
+          <div class="icon-container">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <span>011 XXXX XXXX</span>
+          </div>
+          <div class="icon-container">
+            <div class="icon"><i class="fas fa-home"></i></div>
+            <span>Lorem Ipsum 1111 - Buenos Aires - Argentina</span>
           </div>
         </div>
-
-        <legend for="message">Mensaje</legend>
-        <textarea
-          name="message"
-          id="message"
-          cols=""
-          rows=""
-          placeholder="Escriba aquí su mensaje"
-          required
-        ></textarea>
-        <button id="form-button" type="submit">Enviar</button>
-      </form>
+        <div class="login-box">
+          <form>
+            <div class="user-box">
+              <input
+                type="text"
+                id="name"
+                name="username"
+                minlength="5"
+                required
+              />
+              <label>Nombre</label>
+            </div>
+            <div class="user-box">
+              <input type="email" id="email" name="email" required />
+              <label>Dirección de e-mail</label>
+            </div>
+            <div class="user-box">
+              <textarea
+                name="message"
+                id="message"
+                cols=""
+                rows=""
+                required
+              ></textarea>
+              <legend for="message">Mensaje</legend>
+            </div>
+            <button id="form-button" type="button"><span>Enviar</span></button>
+          </form>
+        </div>
+      </div>
     </section>
     <footer id="footer">
       <p>
